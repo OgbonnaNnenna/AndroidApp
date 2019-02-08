@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75D17728EB2361E1C24D251C124F9898 /* Pods-AndroidAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9775A437B9391077869A2AF124F5D9 /* Pods-AndroidAppTests-dummy.m */; };
+		D5D21B9682E845BAA7818AB149F85C23 /* Pods-AndroidApp-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E7EA15A61276094E1E97232EEBBE57 /* Pods-AndroidApp-tvOSTests-dummy.m */; };
+		F2FAFE93E7D152F89734BB22235B001B /* Pods-AndroidApp-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A31DA0A3435341DBC4F853EDB19D374 /* Pods-AndroidApp-tvOS-dummy.m */; };
+		FEA7A9675735AF14B79E2D829F1A4811 /* Pods-AndroidApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EA083EE0AF83F9BCD04705F84AB52 /* Pods-AndroidApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		352772464DC16DA90BD93A676896F295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138018B4469A0BCC2E4A343B552386F3;
+			remoteInfo = "Pods-AndroidApp";
+		};
+		471B4CE5474B717427C77CB65C8C2684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B48B6026BFE7A608392747940F12AB5;
+			remoteInfo = "Pods-AndroidApp-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D01329D925A56F6DABC87ECD8A9AF1 /* Pods-AndroidApp-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AndroidApp-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D1D671F6E7D66F07BC3FAB3E33DEAA1 /* Pods-AndroidApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AndroidApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F055831BC0D529504A35024487DC27C /* libPods-AndroidAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AndroidAppTests.a"; path = "libPods-AndroidAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AD6F44773CD917E34F1771181851BD /* Pods-AndroidApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AndroidApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20BDB2C0E2B1CB7DB22CA9E591EF624B /* Pods-AndroidApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AndroidApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		262EA083EE0AF83F9BCD04705F84AB52 /* Pods-AndroidApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AndroidApp-dummy.m"; sourceTree = "<group>"; };
+		28A912E9D48162C26DF345B65EAD4684 /* Pods-AndroidApp-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AndroidApp-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FE9689EE576228C2D64E6B2495D38C4 /* Pods-AndroidApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AndroidApp.release.xcconfig"; sourceTree = "<group>"; };
+		5A18496EA4AE51B6C0273B3806C06BDF /* Pods-AndroidApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AndroidApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A31DA0A3435341DBC4F853EDB19D374 /* Pods-AndroidApp-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AndroidApp-tvOS-dummy.m"; sourceTree = "<group>"; };
+		64C605164BBF8CC83A6D3FBF49A3A50A /* Pods-AndroidAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AndroidAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		690245F4EB49009DFB01FC5EEBF991EA /* libPods-AndroidApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AndroidApp-tvOSTests.a"; path = "libPods-AndroidApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA5887A74A76FFBDB400D2A3B196269 /* Pods-AndroidApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AndroidApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9AC33B253EE3D57C489C91F200B2C5F3 /* Pods-AndroidApp-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AndroidApp-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD3BE7544EF79B7EC615FD805D8CF16 /* Pods-AndroidAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AndroidAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFD7C43317E5F681ED31471A2859DB8C /* Pods-AndroidAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AndroidAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6E7EA15A61276094E1E97232EEBBE57 /* Pods-AndroidApp-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AndroidApp-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		D524DBA3DD0300A3CE0752DCA14CF2CE /* Pods-AndroidApp-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AndroidApp-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA9775A437B9391077869A2AF124F5D9 /* Pods-AndroidAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AndroidAppTests-dummy.m"; sourceTree = "<group>"; };
+		DB13691AA30DDC1BFC9C1D7474EFD452 /* libPods-AndroidApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AndroidApp.a"; path = "libPods-AndroidApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59B60B541859F438BD23EA54E3666FA /* Pods-AndroidAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AndroidAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7B056A45DD76B13B70954C337D206F8 /* libPods-AndroidApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AndroidApp-tvOS.a"; path = "libPods-AndroidApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11D8F6E5730F3B947E3606FF1B77A55 /* Pods-AndroidApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AndroidApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F367955335335BE98FEE1392840C6310 /* Pods-AndroidApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AndroidApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C67718BC80FF31EC0B9305ACE52E44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B2B7CA6808504AF04257AF7C967149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF142751862317FCADFCF5947696348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FED8FDBB7EFD79DC419470233100DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		343BDE8D4A157C7BA6375C4D702B3BDB /* Pods-AndroidApp */ = {
+			isa = PBXGroup;
+			children = (
+				19AD6F44773CD917E34F1771181851BD /* Pods-AndroidApp-acknowledgements.markdown */,
+				0D1D671F6E7D66F07BC3FAB3E33DEAA1 /* Pods-AndroidApp-acknowledgements.plist */,
+				262EA083EE0AF83F9BCD04705F84AB52 /* Pods-AndroidApp-dummy.m */,
+				7CA5887A74A76FFBDB400D2A3B196269 /* Pods-AndroidApp.debug.xcconfig */,
+				4FE9689EE576228C2D64E6B2495D38C4 /* Pods-AndroidApp.release.xcconfig */,
+			);
+			name = "Pods-AndroidApp";
+			path = "Target Support Files/Pods-AndroidApp";
+			sourceTree = "<group>";
+		};
+		37A053D368EDB0927C21C63E99729264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB13691AA30DDC1BFC9C1D7474EFD452 /* libPods-AndroidApp.a */,
+				E7B056A45DD76B13B70954C337D206F8 /* libPods-AndroidApp-tvOS.a */,
+				690245F4EB49009DFB01FC5EEBF991EA /* libPods-AndroidApp-tvOSTests.a */,
+				0F055831BC0D529504A35024487DC27C /* libPods-AndroidAppTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BC7B284E06925F2A176F06D866DEE05 /* Pods-AndroidAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E59B60B541859F438BD23EA54E3666FA /* Pods-AndroidAppTests-acknowledgements.markdown */,
+				AFD7C43317E5F681ED31471A2859DB8C /* Pods-AndroidAppTests-acknowledgements.plist */,
+				DA9775A437B9391077869A2AF124F5D9 /* Pods-AndroidAppTests-dummy.m */,
+				64C605164BBF8CC83A6D3FBF49A3A50A /* Pods-AndroidAppTests.debug.xcconfig */,
+				9FD3BE7544EF79B7EC615FD805D8CF16 /* Pods-AndroidAppTests.release.xcconfig */,
+			);
+			name = "Pods-AndroidAppTests";
+			path = "Target Support Files/Pods-AndroidAppTests";
+			sourceTree = "<group>";
+		};
+		9ED3288657D02DEE8783F7D6E92B0EF6 /* Pods-AndroidApp-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D524DBA3DD0300A3CE0752DCA14CF2CE /* Pods-AndroidApp-tvOSTests-acknowledgements.markdown */,
+				9AC33B253EE3D57C489C91F200B2C5F3 /* Pods-AndroidApp-tvOSTests-acknowledgements.plist */,
+				C6E7EA15A61276094E1E97232EEBBE57 /* Pods-AndroidApp-tvOSTests-dummy.m */,
+				F367955335335BE98FEE1392840C6310 /* Pods-AndroidApp-tvOSTests.debug.xcconfig */,
+				5A18496EA4AE51B6C0273B3806C06BDF /* Pods-AndroidApp-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-AndroidApp-tvOSTests";
+			path = "Target Support Files/Pods-AndroidApp-tvOSTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				37A053D368EDB0927C21C63E99729264 /* Products */,
+				EFD009CE5E13B648F98D75DDDB23D761 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC6B3B220E91DB7BA34B5173BD976A64 /* Pods-AndroidApp-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				08D01329D925A56F6DABC87ECD8A9AF1 /* Pods-AndroidApp-tvOS-acknowledgements.markdown */,
+				28A912E9D48162C26DF345B65EAD4684 /* Pods-AndroidApp-tvOS-acknowledgements.plist */,
+				5A31DA0A3435341DBC4F853EDB19D374 /* Pods-AndroidApp-tvOS-dummy.m */,
+				F11D8F6E5730F3B947E3606FF1B77A55 /* Pods-AndroidApp-tvOS.debug.xcconfig */,
+				20BDB2C0E2B1CB7DB22CA9E591EF624B /* Pods-AndroidApp-tvOS.release.xcconfig */,
+			);
+			name = "Pods-AndroidApp-tvOS";
+			path = "Target Support Files/Pods-AndroidApp-tvOS";
+			sourceTree = "<group>";
+		};
+		EFD009CE5E13B648F98D75DDDB23D761 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				343BDE8D4A157C7BA6375C4D702B3BDB /* Pods-AndroidApp */,
+				EC6B3B220E91DB7BA34B5173BD976A64 /* Pods-AndroidApp-tvOS */,
+				9ED3288657D02DEE8783F7D6E92B0EF6 /* Pods-AndroidApp-tvOSTests */,
+				4BC7B284E06925F2A176F06D866DEE05 /* Pods-AndroidAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		342DD6006DCFBADCEB5DB931F80D9B71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3E9ACE8D95BBD7D916056C10C4DB3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA11845AD12244413DAB51167868543D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6469F60F6CF38A999C212AAC53538A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		138018B4469A0BCC2E4A343B552386F3 /* Pods-AndroidApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C91D68846F8F512C654C39751FA7151 /* Build configuration list for PBXNativeTarget "Pods-AndroidApp" */;
+			buildPhases = (
+				AD3E9ACE8D95BBD7D916056C10C4DB3A /* Headers */,
+				885BBE40E7C35C955F7D890CDBD6B5B7 /* Sources */,
+				F7FED8FDBB7EFD79DC419470233100DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AndroidApp";
+			productName = "Pods-AndroidApp";
+			productReference = DB13691AA30DDC1BFC9C1D7474EFD452 /* libPods-AndroidApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1B48B6026BFE7A608392747940F12AB5 /* Pods-AndroidApp-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96EAF4240A0CE58E92DEDFDDB7C4CAEC /* Build configuration list for PBXNativeTarget "Pods-AndroidApp-tvOS" */;
+			buildPhases = (
+				342DD6006DCFBADCEB5DB931F80D9B71 /* Headers */,
+				A606B4870D3ABD04FB50B8059C91BC29 /* Sources */,
+				D0B2B7CA6808504AF04257AF7C967149 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AndroidApp-tvOS";
+			productName = "Pods-AndroidApp-tvOS";
+			productReference = E7B056A45DD76B13B70954C337D206F8 /* libPods-AndroidApp-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		322FD05044B0D520354EB73FF444AD7A /* Pods-AndroidApp-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF2D6E2E0FCC963D5CCE01C4A8C2266 /* Build configuration list for PBXNativeTarget "Pods-AndroidApp-tvOSTests" */;
+			buildPhases = (
+				F6469F60F6CF38A999C212AAC53538A3 /* Headers */,
+				49D8F7C47B29BC708379A550F3F6BF19 /* Sources */,
+				DDF142751862317FCADFCF5947696348 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86FABFEC0D66EB219FEB0E4E9DE1A500 /* PBXTargetDependency */,
+			);
+			name = "Pods-AndroidApp-tvOSTests";
+			productName = "Pods-AndroidApp-tvOSTests";
+			productReference = 690245F4EB49009DFB01FC5EEBF991EA /* libPods-AndroidApp-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A89FE93C83D7689A2FACC52A748F045 /* Pods-AndroidAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F319E28957F5F20ADE9F23F587AF55 /* Build configuration list for PBXNativeTarget "Pods-AndroidAppTests" */;
+			buildPhases = (
+				EA11845AD12244413DAB51167868543D /* Headers */,
+				58209241E45621017A9C33E38AB67E8E /* Sources */,
+				7C67718BC80FF31EC0B9305ACE52E44E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1878CAC30FB866A7DCD0E2AAA7B21708 /* PBXTargetDependency */,
+			);
+			name = "Pods-AndroidAppTests";
+			productName = "Pods-AndroidAppTests";
+			productReference = 0F055831BC0D529504A35024487DC27C /* libPods-AndroidAppTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 37A053D368EDB0927C21C63E99729264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				138018B4469A0BCC2E4A343B552386F3 /* Pods-AndroidApp */,
+				1B48B6026BFE7A608392747940F12AB5 /* Pods-AndroidApp-tvOS */,
+				322FD05044B0D520354EB73FF444AD7A /* Pods-AndroidApp-tvOSTests */,
+				7A89FE93C83D7689A2FACC52A748F045 /* Pods-AndroidAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D8F7C47B29BC708379A550F3F6BF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D21B9682E845BAA7818AB149F85C23 /* Pods-AndroidApp-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58209241E45621017A9C33E38AB67E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D17728EB2361E1C24D251C124F9898 /* Pods-AndroidAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885BBE40E7C35C955F7D890CDBD6B5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA7A9675735AF14B79E2D829F1A4811 /* Pods-AndroidApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A606B4870D3ABD04FB50B8059C91BC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FAFE93E7D152F89734BB22235B001B /* Pods-AndroidApp-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1878CAC30FB866A7DCD0E2AAA7B21708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AndroidApp";
+			target = 138018B4469A0BCC2E4A343B552386F3 /* Pods-AndroidApp */;
+			targetProxy = 352772464DC16DA90BD93A676896F295 /* PBXContainerItemProxy */;
+		};
+		86FABFEC0D66EB219FEB0E4E9DE1A500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AndroidApp-tvOS";
+			target = 1B48B6026BFE7A608392747940F12AB5 /* Pods-AndroidApp-tvOS */;
+			targetProxy = 471B4CE5474B717427C77CB65C8C2684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F78DB952EEAAAC4DB6F8C348E2AE959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F367955335335BE98FEE1392840C6310 /* Pods-AndroidApp-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2725B77ABE3F5409E82B1DDC5AD9A92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BDB2C0E2B1CB7DB22CA9E591EF624B /* Pods-AndroidApp-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E3A1A2AA57F8EA3FE9C9B6F26047215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE9689EE576228C2D64E6B2495D38C4 /* Pods-AndroidApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6102AAACF1F680356B7D3FAF0632D673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		65B1628DA93883AEF0950C994B5B8166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F11D8F6E5730F3B947E3606FF1B77A55 /* Pods-AndroidApp-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		723D6C286B216D7745AE1AAD822F62C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A18496EA4AE51B6C0273B3806C06BDF /* Pods-AndroidApp-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B8606BB93603BB23BF21AA8B41F539E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA5887A74A76FFBDB400D2A3B196269 /* Pods-AndroidApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BBA25EDDDAEDE7FFB8870004DC7E4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		959B5B69E9C1001F50AA7A495433644E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD3BE7544EF79B7EC615FD805D8CF16 /* Pods-AndroidAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE032B770FF62E2CEA65EEAAD814C77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C605164BBF8CC83A6D3FBF49A3A50A /* Pods-AndroidAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C91D68846F8F512C654C39751FA7151 /* Build configuration list for PBXNativeTarget "Pods-AndroidApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8606BB93603BB23BF21AA8B41F539E /* Debug */,
+				3E3A1A2AA57F8EA3FE9C9B6F26047215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBA25EDDDAEDE7FFB8870004DC7E4C0 /* Debug */,
+				6102AAACF1F680356B7D3FAF0632D673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CF2D6E2E0FCC963D5CCE01C4A8C2266 /* Build configuration list for PBXNativeTarget "Pods-AndroidApp-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F78DB952EEAAAC4DB6F8C348E2AE959 /* Debug */,
+				723D6C286B216D7745AE1AAD822F62C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96EAF4240A0CE58E92DEDFDDB7C4CAEC /* Build configuration list for PBXNativeTarget "Pods-AndroidApp-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B1628DA93883AEF0950C994B5B8166 /* Debug */,
+				2725B77ABE3F5409E82B1DDC5AD9A92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F319E28957F5F20ADE9F23F587AF55 /* Build configuration list for PBXNativeTarget "Pods-AndroidAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE032B770FF62E2CEA65EEAAD814C77E /* Debug */,
+				959B5B69E9C1001F50AA7A495433644E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

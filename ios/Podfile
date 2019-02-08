@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AndroidApp' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for AndroidApp
+
+  # target 'AndroidApp-tvOSTests' do
+  #   inherit! :search_paths
+  #   # Pods for testing
+  # end
+
+  target 'AndroidAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'AndroidApp-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for AndroidApp-tvOS
+
+  target 'AndroidApp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
